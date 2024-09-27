@@ -7,7 +7,7 @@ from validation import validate_plantuml
 app = Flask(__name__)
 
 # Loading the LLAMA 3.1 model
-model_name = "meta-llama/Meta-Llama-3.1-405B"
+model_name = "mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name)
 
